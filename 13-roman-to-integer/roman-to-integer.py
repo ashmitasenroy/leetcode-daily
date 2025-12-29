@@ -18,7 +18,6 @@ class Solution:
             else:
                 total += roman[s[i]]
 
-        # add the last value
         total += roman[s[-1]]
 
         return total
